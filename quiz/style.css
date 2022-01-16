@@ -1,0 +1,121 @@
+body{
+    background-color: #1a1b26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+a{
+    color: white;
+}
+.card-header{
+    background-color:#24283b;
+    color: azure;
+}
+.card-body{
+    background-color:#414868;
+    color: azure;
+}
+.card-footer{
+    background-color:#24283b;
+    color: azure;
+}
+
+body.light{
+    background-color: #9aa5ce;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+body.light a{
+        color: #343b58;
+}
+
+body.light .card{
+    border: 0;
+}
+body.light .card-header{
+
+    background-color:    #565f89;
+}
+body.light .card-body{
+
+    background-color:  #d5d6db;
+    color: black;
+}
+
+body.light .card-footer{
+
+    background-color:  #565f89;
+}
+
+body.light .btn-primary{
+    background-color: #4285F4 !important;
+}
+
+.btn-primary {
+    background-color: #f39020 !important;
+}
+
+
+.row{
+    text-align: center;
+}
+
+#question{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#buttons{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.btn{
+    border: none;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+.checkbox{
+    opacity: 0;
+    position: absolute;
+}
+.checkbox:checked + .label .ball{
+    transform: translateX(24px);
+}
+.label{
+    width: 50px;
+    height: 26px;
+    background-color: rgb(30, 26, 85);
+    display: flex;
+    position: relative;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: space-between ;
+    padding: 5px;
+}
+
+.ball{
+    width: 22px;
+    height: 22px;
+    background-color: white;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+}
+.fa-moon {
+    color:white;
+}
+
+.fa-sun{
+    color: white;
+}
